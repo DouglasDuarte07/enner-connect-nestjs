@@ -140,7 +140,7 @@ export function Homepage() {
           </p>
           <Link
             className="inline-flex items-center justify-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-medium py-3 px-6 rounded-md"
-            href="#"
+            href="#simulator"
           >
             Simule um Orçamento
           </Link>
@@ -349,14 +349,13 @@ export function Homepage() {
           <Card>
             <img
               alt="Blog Post Image"
-              className="rounded-t-md"
+              className="rounded-t-md w-full"
               height={300}
               src="/img/blog-home.jpg"
               style={{
                 aspectRatio: "400/300",
                 objectFit: "cover",
               }}
-              width={400}
             />
             <CardContent>
               <div className="flex items-center space-x-2 mb-2 mt-3">
@@ -381,14 +380,13 @@ export function Homepage() {
           <Card>
             <img
               alt="Blog Post Image"
-              className="rounded-t-md"
+              className="rounded-t-md w-full"
               height={300}
               src="/img/blog-company.jpg"
               style={{
                 aspectRatio: "400/300",
                 objectFit: "cover",
               }}
-              width={400}
             />
             <CardContent>
               <div className="flex items-center space-x-2 mb-2 mt-3">
@@ -413,14 +411,13 @@ export function Homepage() {
           <Card>
             <img
               alt="Blog Post Image"
-              className="rounded-t-md"
+              className="rounded-t-md w-full"
               height={300}
               src="/img/blog-savings.jpg"
               style={{
                 aspectRatio: "400/300",
                 objectFit: "cover",
               }}
-              width={400}
             />
             <CardContent>
               <div className="flex items-center space-x-2 mb-2 mt-3">
@@ -451,13 +448,13 @@ export function Homepage() {
             <span className="text-xl font-bold">Enner Connect</span>
           </div>
           <nav className="flex space-x-6 mt-4 md:mt-0">
-            <Link className="hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-400" href="#simulator">
               Simule um Orçamento
             </Link>
-            <Link className="hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-400" href="#marketplaces">
               Marketplaces Disponíveis
             </Link>
-            <Link className="hover:text-gray-400" href="#">
+            <Link className="hover:text-gray-400" href="#blog">
               Nosso Blog
             </Link>
           </nav>
